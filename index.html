@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeEditor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+    <h2 class="question">Write a program to find factorial of a number</h2>
+
+    <div class="flex">
+        <h4>Type Your Code</h4>
+    
+        <select id="language" class="form-control">
+            <option id="4" selected>Javascript</option>
+            <option id="8">Java</option>
+            <option id="7">C</option>
+            <option id="77">C++</option>
+            <option id="0">Python</option>
+        </select>
+    </div>
+
+    <div id="codeArea">#Write your code
+    </div>
+      
+    <div id="outputArea">
+        <p>OUTPUT : </p>
+    </div>
+
+    <button id="compile" class="btn btn-warning">Compile</button>
+</div>
+<script src="/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
